@@ -1,0 +1,17 @@
+{
+  "name": "prizesbot",
+  "version": "1.0.0",
+  "description": "Telegram giveaway/prizes bot (@Prizesesbot) - Node.js + Telegraf + Postgres, deployed on Railway",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "pg": "^8.11.5",
+    "dotenv": "^16.4.5"
+  }
+}
